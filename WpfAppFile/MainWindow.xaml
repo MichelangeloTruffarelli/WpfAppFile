@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfAppFile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppFile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Black">
+        <TextBox x:Name="TxtNum" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="130" Margin="85,90,0,0"/>
+        <Button Content="Genera" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="85,173,0,0" FontWeight="Bold" Height="40" FontSize="16" Click="Button_Click"/>
+        <Label Content="Inserisci numero positivo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,40,0,0" Height="35" Width="175" Foreground="Red" FontWeight="Bold" FontSize="14"/>
+        <Label x:Name="LblRisultato" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="85,260,0,0" Height="55" Width="310" Foreground="Black" BorderBrush="White" Background="White"/>
+        <Button Content="Reset" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Margin="540,173,0,0" Height="40" FontWeight="Bold" FontSize="16" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
